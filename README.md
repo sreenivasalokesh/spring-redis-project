@@ -1,10 +1,5 @@
 # Redis Cahce implementation in Spring Boot
-* Include the lib spring data redis while creating the project or add below mvn dependency  
-
-	<dependency>  
-		<groupId>org.springframework.boot</groupId>  
-		<artifactId>spring-boot-starter-data-redis</artifactId>  
-	</dependency>    
+* Include the lib spring data redis while creating the project or add the following mvn dependency -> spring-boot-starter-data-redis
 * At the entry point or main add the annotation @EnableCaching.
 * We can add Redis annotation like Cacheable, CachePut, CacheEvict on the controller methods, or it can be done on service methods. Usually, service methods are used as they the ones responsible for business logic, and referenced from multiple controllers
 * As we know that the caching is usually done on Get methods or find calls, So Cahceable is placed on the Get controller methods.
