@@ -1,4 +1,4 @@
-#Redis Cahce implementation in Spring Boot
+# Redis Cahce implementation in Spring Boot
 * Include the lib spring data redis while creating the project or add below mvn dependency  
 
 	<dependency>  
