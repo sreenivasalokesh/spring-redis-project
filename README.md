@@ -1,4 +1,9 @@
 # Redis Cahce implementation in Spring Boot
+
+### Prerequisites
+Make sure Redis is running at locahost 6379 port
+
+### Redis basics
 * Include the lib spring data redis while creating the project or add the following mvn dependency -> spring-boot-starter-data-redis
 * At the entry point or main add the annotation @EnableCaching.
 * We can add Redis annotation like Cacheable, CachePut, CacheEvict on the controller methods, or it can be done on service methods. Usually, service methods are used as they the ones responsible for business logic, and referenced from multiple controllers
